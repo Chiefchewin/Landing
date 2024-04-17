@@ -1,187 +1,49 @@
-<!-- Maquinna Pley
-     EDJ324
-     11316131  
--->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google font API -->
+    <title>Maquinna Pley</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@500&display=swap"
-        rel="stylesheet">
-    <title>Maquinna Pley</title>
-    <style>
-        :root {
-            --headercolor: #86b094;
-        }
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
 
-        body {
-            margin: 0;
-            background-color: #e8f0f7;
-            font-family: 'Montserrat', sans-serif;
-            min-height: 100vh;
-        }
-
-        h1,
-        h3 {
-            text-align: center;
-        }
-
-        .nav {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-bottom: 14px;
-        }
-
-        .nav_list {
-            display: flex;
-            column-gap: 40px;
-            padding-right: 40px;
-            align-items: center;
-            text-decoration: none;
-            list-style: none;
-        }
-
-        .nav_items {
-            text-align: center;
-            list-style: none;
-        }
-
-        .link {
-            color: black;
-        }
-
-        .link:focus,
-        .link:hover {
-            color: rgba(223, 245, 206, .73);
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        .top-image {
-            width: 85%;
-            max-width: 1500px;
-            overflow: hidden;
-            margin-left: auto;
-            margin-right: auto;
-            height: 200px;
-            border-radius: 10px;
-
-            background-image: url('https://i.imgur.com/gtKuVq4.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
-
-        .portfolio-itmes {
-            width: 55%;
-            box-sizing: border-box;
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 50px;
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 60px;
-
-        }
-
-        .portfolio-item {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            max-width: 400px;
-            max-height: 300px;
-            min-height: 300px;
-            width: 400px;
-            box-sizing: border-box;
-            background-color: transparent;
-        }
-    </style>
 </head>
-
 <body>
-    <div class="header" style=" width:100%; padding-top: 40px; padding-bottom: 20px; background-color: var(--headercolor);">
-        <h1 style="margin-top:0%; margin-bottom: 2px; font-size: 3rem;">Maquinna Pley</h1>
+<div class="container">
+    <svg id="hexagon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <g id="MP" transform="translate(32,26)" fill="#64FFDA" font-family="system-ui, Calibre-Medium, Calibre, sans-serif" font-size="25" font-weight="400" letter-spacing="1">
+                <text>
+                    <tspan x="0" y="33">MP</tspan>
+                </text>
+            </g>
+            <path
+                    stroke="#64FFDA"
+                    stroke-width="5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M 50, 5
+                       L 11, 27
+                       L 11, 72
+                       L 50, 95
+                       L 89, 73
+                       L 89, 28 z"
+                    style="stroke-dasharray: 300; stroke-dashoffset: 300;"
+            />
+        </g>
+    </svg>
+</div>
+<div class="main-content" style="display: none; margin-top: 200px;">
+    <div class="content">
+
+            <h1>Hi, my name is</h1>
+            <h2>Maquinna Pley</h2>
+
+
     </div>
-
-    <div class="page-content" style="background-image: linear-gradient(to bottom, var(--headercolor) 8%, #e8f0f7);">
-
-        <div class="top-image">
-        </div>
-        <h1>Third Year Computer Science Major</h1>
-        <h3>C# - JavaScript - Java -  Ptyton -  HTML - CSS</h3>
-
-        <div class="portfolio-itmes">
-            <div class="portfolio-item">
-                <div class="image" style="max-width: 400px; max-height: 250px; width: 100%; height: 100%; background-image: url('https://i.imgur.com/uENmw52.png');
-            background-repeat: no-repeat;
-            background-size: cover; 
-            background-position: center; border-radius: 10px; display: flex;"> </div>
-                <a href="https://github.com/Chiefchewin/CMPT281_2nd-Ave_Dental" style="font-size: 20px; width: 100%; text-align: left; margin-top: 16px;"
-                    class="link">CMPT281 - 2nd Avenue Dental</a>
-            </div>
-
-            <div class="portfolio-item">
-                <div class="image" style="max-width: 400px; max-height: 250px; width: 100%; height: 100%;  background-image: url('https://i.imgur.com/NzVYld6.png');
-            background-repeat: no-repeat;
-            background-size: cover; 
-            background-position: center; border-radius: 10px; display: flex;"> </div>
-                <a href="https://github.com/Chiefchewin/CMPT281_The_Finals_Countdown" style="font-size: 20px; width: 100%; text-align: left; margin-top: 16px;"
-                    class="link">CMPT281 - The Final(s) Countdown</a>
-            </div>
-
-          
-        </div>
-
-        <div class="portfolio-itmes">
-            <div class="portfolio-item">
-                <div class="image" style="max-width: 400px; max-height: 250px; width: 100%; height: 100%;  background-image: url('https://i.imgur.com/iowkb5p.png');
-            background-repeat: no-repeat;
-            background-size: cover; 
-            background-position: center; border-radius: 10px; display: flex;"> </div>
-                <a href="https://github.com/Chiefchewin/CMPT306_Goup_Project_Demon_Souls" style="font-size: 20px; width: 100%; text-align: left; margin-top: 16px;"
-                    class="link">CMPT306  Group Project - Demon Souls</a>
-            </div>
-            <div class="portfolio-item">
-                <div class="image" style="max-width: 400px; max-height: 250px; width: 100%; height: 100%;  background-image: url('https://i.imgur.com/DZSmo5b.png');
-            background-repeat: no-repeat;
-            background-size: cover; 
-            background-position: center; border-radius: 10px; display: flex;"> </div>
-                <a href="https://github.com/Chiefchewin/CMPT306_Super_Hexiclone" style="font-size: 20px; width: 100%; text-align: left; margin-top: 16px;"
-                    class="link">CMPT306 - Super Hexiclone</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer"
-        style="  margin-top: auto; background-color: var(--headercolor); width: 100%; min-height: 210px; max-height: 210px;">
-        <div class="footer_container"
-            style=" padding: 0 30px; margin: 0 auto; max-width: 1500px; display: flex; flex-direction: column; align-items: center;">
-            <h4 style="margin-top: 50px;">© Maquinna Pley</h2>
-                <div class="social-links" style=" display: flex;  justify-content: space-between;">
-                    
-                    <a href="https://www.linkedin.com/in/maquinna-pley-049035227/" class="socail_icon"><img
-                            src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Linkedin2_svg-512.png"
-                            alt="Linkedin" style=" height: 40px; width: auto; margin-right: 10px;"></a>
-                 
-                </div>
-
-
-
-        </div>
-
-
-
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
